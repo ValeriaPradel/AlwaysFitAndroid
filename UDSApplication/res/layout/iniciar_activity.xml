@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/lightgray">
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/app_color"
+        >
+        
+    </RelativeLayout>
+
+   <LinearLayout
+       style="@style/login_container" >
+        
+       <LinearLayout
+            style="@style/col_1" >
+            
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:text="Inicia Sesión" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/input_container" >
+            
+            <TextView
+                style="@style/label"
+                android:id="@+id/textView2"
+                android:text="@string/name" />
+
+		    <EditText
+                style="@style/textfield"
+		        android:id="@+id/IAetN"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+
+        		<requestFocus  />
+
+    		</EditText>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/input_container" >
+            
+            <TextView
+                style="@style/label"
+		        android:id="@+id/textView3"
+		        android:text="@string/pass" />
+
+		    <EditText
+		        android:inputType="textPassword" 
+		        style="@style/textfield"
+		        android:id="@+id/IAetP"
+		        />
+            
+        </LinearLayout>
+
+    	<LinearLayout
+    	    style="@style/col_1"
+    	    android:layout_marginTop="32dp">
+		    
+    	    <Button
+    	        style="@style/login_button"
+    	        android:background="@color/lightpink"
+		        android:id="@+id/IAbtL"
+		        android:textColor="@color/white"
+		        android:text="@string/login" />
+
+    	</LinearLayout>
+ 
+    
+    </LinearLayout>
+    
+
+</RelativeLayout>

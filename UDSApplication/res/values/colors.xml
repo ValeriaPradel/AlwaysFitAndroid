@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#FF9800</color>
+    <color name="blue">#2196F3</color>
+    <color name="lightpink">#FF4081</color>
+    <color name="lightgray">#e0e0e0</color>
+    <color name="white">#ffffff</color>
+</resources>

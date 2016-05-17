@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <string-array name="list_options">
+        <item>Mi cuenta</item>
+        <item>Comidas</item>
+        <item>Calorias</item>
+        <item>Ejercicios</item>
+        <item>Configuraciones</item>
+        <item>Salir</item>
+    </string-array>
+ 
+</resources>

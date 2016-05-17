@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/app_color"
+    android:gravity="center_vertical"
+    tools:context="mx.ipn.evershape.MainActivity" >
+    
+    <LinearLayout
+        style="@style/v_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+        
+        <LinearLayout 
+            style="@style/col_1"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="32dp">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="18dp"
+                android:src="@drawable/app_logo">
+                
+            </ImageView>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:text="EverShape" />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            style="@style/autocol">
+            
+            <Button
+                style="@style/home_button"
+		        android:id="@+id/AMbtI"
+		        android:text="@string/login" 
+		        android:background="@color/lightpink" />
+            
+            <Button
+                style="@style/home_button"
+                android:layout_marginLeft="12dp"
+		        android:id="@+id/AMbtR"
+		        android:background="@color/blue"
+		        android:text="@string/sigin" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EverShape</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+	<string name="AMtxt2">Choose a option to use the system</string>
+	<string name="login">Log in</string>
+	<string name="sigin">Sig in</string>
+	<string name="ARtxt1">Fill the form to Register</string>
+	<string name="name">Name</string>
+	<string name="lastname">LastName</string>
+	<string name="age">Age</string>
+	<string name="height">Height</string>
+	<string name="weight">Weight</string>
+	<string name="pass">Password</string>
+	<string name="IAtxt1">Enter your login data</string>
+	<string name="lel">Fragment de comida</string>
+	<string name="drawer_open">Abierto</string>
+	<string name="drawer_close">Cerrar</string>
+    
+</resources>
